@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 700px;
+  background: red;
+}
+.header-top {
+  width: 100%;
+  height: 100px;
+  background: lightblue;
+}
+.header-top2 {
+  width: 100%;
+  height: 100px;
+  background: white;
+}
+.header-middle {
+  width: 100%;
+  height: 400px;
+  background: pink;
+}
+.header-bottom {
+  width: 100%;
+  height: 100px;
+  background: #94e5da;
+}
+
+main {
+  width: 100%;
+  height: 800px;
+  background: green;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background: blue;
+}
