@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color: #33475B
+}
+
 .container-70 {
   width: 70%;
   margin: 0 auto;
@@ -73,12 +79,10 @@ header {
 .header-nav{
   width: 100%;
   background: white;
-  position: sticky;
-  top: 0;
 }
-/* /Parte Header Top2 NON me lo Prende*/
+
 .logohub {
-  vertical-align: middle;
+  margin-top: 15px;
 }
 
 .right-icon-menu {
@@ -87,17 +91,15 @@ header {
 #menu li {
   display: inline-block;
   padding: 0 10px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .right-icon-menu #menu a {
   text-decoration: none;
   color: black;
 }
 
-.right-icon-menu .angle2 {
-  margin-left: 10px;
-  margin-right: 25px;
-  color: black;
+.right-icon-menu .angle {
+  margin-left: 20px;
 }
 
 /* /Parte Header Nav*/
@@ -136,13 +138,32 @@ h1 {
   border-bottom: 3px solid black;
   border-top: 3px solid black;
 }
-
+/* Main*/
 main {
   width: 100%;
   height: 800px;
   background: #F5F8FA;
 }
+.cube {
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.cube img {
+  height: 250px;
+  width: 250px;
+  padding-top: 50px;
+}
 
+.cube h2 {
+  color: #33475B;
+  font-size: 40px;
+}
+.cube p {
+  margin-top: 30px;
+  font-size: 24px;
+}
+/* /Main*/
 footer {
   width: 100%;
   height: 400px;
