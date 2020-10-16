@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   color: #33475B
 }
 
@@ -135,6 +135,7 @@ h1 {
 }
 .text span {
   display: block;
+  font-size: 16px
 }
 /* /Parte Header-Middle*/
 .header-bottom {
@@ -167,7 +168,6 @@ main {
 }
 .cube p {
   margin-top: 30px;
-  font-size: 24px;
   margin-bottom: 50px;
 }
 /* /Cube*/
@@ -191,13 +191,68 @@ main {
 }
 .right-colon {
   float: left;
-  margin-left: 250px;
+  margin-left: 150px;
   margin-top: 50px;
 }
-.right-colon h4 {
+.right-colon h3{
   font-size: 30px;
 }
-
+.right-colon p {
+  padding-top: 30px;
+}
+.horizontal-line h4 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.horizontal-line hr {
+  width: 450px;
+  border: 1px solid gray;
+  vertical-align: 5px;
+  margin-left: 70px;
+  display: inline-block;
+}
+.right-colon i {
+  color: #FE775A;
+  padding-left: 30px;
+}
+/* NON FUNZIONA devo togliere il padding al primo elemnto*/
+.right-colon > i:first-of-type {
+  padding-left: none;
+}
+/**/
+.check {
+  padding-left: 10px;
+}
+/* /CRM */
+/* Marketing */
+.mss {
+  padding-top: 20px;
+}
+.marketing {
+  float: left;
+  width: 30%;
+  background-color: white;
+}
+.marketing img {
+  height: 100px;
+  width: 90px;
+}
+/* /Marketing */
+/* Sales */
+.sales {
+  float: left;
+  width: 30%;
+  background-color: white;
+}
+/* /Sales */
+/* Services */
+.service {
+  float: left;
+  width: 30%;
+  background-color: white;
+}
+/* /Services */
 
 /* /Main*/
 footer {
