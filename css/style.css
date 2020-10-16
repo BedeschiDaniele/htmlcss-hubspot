@@ -19,6 +19,10 @@ body {
   width: 50%;
 }
 
+.radius {
+  border-radius: 8px;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -124,10 +128,12 @@ h1 {
   line-height: 30px;
   font-size: 24px;
 }
-#button-middle {
+.button-middle {
   padding: 20px 40px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+.text span {
   display: block;
 }
 /* /Parte Header-Middle*/
@@ -139,13 +145,14 @@ h1 {
   border-top: 3px solid black;
 }
 /* Main*/
+/* Cube*/
 main {
   width: 100%;
-  height: 800px;
+  height: 1000px;
   background: #F5F8FA;
 }
+
 .cube {
-  height: 100%;
   text-align: center;
   margin: 0 auto;
 }
@@ -154,7 +161,6 @@ main {
   width: 250px;
   padding-top: 50px;
 }
-
 .cube h2 {
   color: #33475B;
   font-size: 40px;
@@ -162,7 +168,37 @@ main {
 .cube p {
   margin-top: 30px;
   font-size: 24px;
+  margin-bottom: 50px;
 }
+/* /Cube*/
+/* CRM*/
+.crm {
+  height: 300px;
+  background-color: white;
+}
+.left-colon {
+  float: left;
+  margin-left: 230px;
+  margin-top: 50px;
+}
+.left-colon img {
+  height: 120px;
+  width: 130px;
+  display: block;
+}
+.left-colon .button {
+  margin-top: 20px;
+}
+.right-colon {
+  float: left;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+.right-colon h4 {
+  font-size: 30px;
+}
+
+
 /* /Main*/
 footer {
   width: 100%;
