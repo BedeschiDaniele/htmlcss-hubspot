@@ -28,6 +28,11 @@ body {
   display: table;
   clear: both;
 }
+
+.check-box {
+  color: #FE775A;
+  padding-left: 30px;
+}
 /* Parte Header Top*/
 header {
   width: 100%;
@@ -149,7 +154,6 @@ h1 {
 /* Cube*/
 main {
   width: 100%;
-  height: 1000px;
   background: #F5F8FA;
 }
 
@@ -194,28 +198,25 @@ main {
   margin-left: 150px;
   margin-top: 50px;
 }
-.right-colon h3{
+h3{
   font-size: 30px;
 }
 .right-colon p {
   padding-top: 30px;
 }
-.horizontal-line h4 {
+h4 {
   padding-top: 20px;
   text-transform: uppercase;
   display: inline-block;
 }
 .horizontal-line hr {
-  width: 450px;
+  width: 850px;
   border: 1px solid gray;
   vertical-align: 5px;
   margin-left: 70px;
   display: inline-block;
 }
-.right-colon i {
-  color: #FE775A;
-  padding-left: 30px;
-}
+
 /* NON FUNZIONA devo togliere il padding al primo elemnto*/
 .right-colon > i:first-of-type {
   padding-left: none;
@@ -227,34 +228,102 @@ main {
 /* /CRM */
 /* Marketing */
 .mss {
-  padding-top: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
-.marketing {
+.sub {
   float: left;
-  width: 30%;
+  width: 25%;
   background-color: white;
+  text-align: center;
 }
-.marketing img {
+.mss img {
   height: 100px;
   width: 90px;
+  margin-top: 30px;
+}
+.mss p {
+  padding-top: 20px;
+}
+.mss hr {
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 65px;
+  border: 1px solid gray;
+}
+.mss h4 {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.sub h3 {
+  padding-top: 20px;
 }
 /* /Marketing */
 /* Sales */
 .sales {
-  float: left;
-  width: 30%;
-  background-color: white;
+  margin: 0 12.5%;
 }
-/* /Sales */
-/* Services */
-.service {
-  float: left;
-  width: 30%;
-  background-color: white;
+/* Section Gradients */
+.section {
+  width: 100%;
+  height: 800px;
+  background-color: red;
+  background-image: linear-gradient(to right, #00A5BC,#00A8BA,#00B2AF,#00B4AD,#01B7AC)
 }
-/* /Services */
+/* Section Lyric */
+.lyric {
+  text-align: center;
+}
+.lyric h5 {
+  font-size: 55px;
+  color: white;
+  padding-top: 60px;
+}
+.lyric p {
+  color: white;
+  margin-top: 30px;
+}
+/* /Section Lyric */
+/* Section Table */
+.block {
+  float: left;
+  width: 24%;
+  border-right: 1px solid white;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+.block img{
+  height: 50px;
+  width: 50px;
+  margin-top: 40px;
+}
+.block .logo-text {
+  width: 170px;
+}
+.block .number {
+  font-size: 40px;
+  color: white;
+}
+.block .plus {
+  color: white;
+  font-size: 30px;
+  vertical-align: text-bottom;
+}
+.block .text {
+  font-size: 15px;
+  color: white;
+}
+.block hr {
+  color: white;
+  margin-top: 20px;
+}
+.block .panel4 {
 
-/* /Main*/
+}
+/* /Section Table */
 footer {
   width: 100%;
   height: 400px;
