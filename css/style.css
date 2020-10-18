@@ -31,7 +31,6 @@ body {
 
 .check-box {
   color: #FE775A;
-  padding-left: 30px;
 }
 /* Parte Header Top*/
 header {
@@ -40,6 +39,10 @@ header {
 }
 
 .header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
   width: 100%;
   background-color: #F4F9fd;
   border-bottom: 1px solid black;
@@ -88,6 +91,7 @@ header {
 .header-nav{
   width: 100%;
   background: white;
+  margin-top: 80px;
 }
 
 .logohub {
@@ -209,6 +213,9 @@ h4 {
   text-transform: uppercase;
   display: inline-block;
 }
+.horizontal-line {
+  margin-bottom: 30px;
+}
 .horizontal-line hr {
   width: 850px;
   border: 1px solid gray;
@@ -216,14 +223,11 @@ h4 {
   margin-left: 70px;
   display: inline-block;
 }
-
-/* NON FUNZIONA devo togliere il padding al primo elemnto*/
-.right-colon > i:first-of-type {
-  padding-left: none;
+.right-colon .check-box {
+  margin-right: 10px;
 }
-/**/
-.check {
-  padding-left: 10px;
+.right-colon span {
+  margin-right: 15px;
 }
 /* /CRM */
 /* Marketing */
@@ -235,6 +239,11 @@ h4 {
   float: left;
   width: 25%;
   background-color: white;
+}
+.container {
+  text-align: center;
+}
+.button-center {
   text-align: center;
 }
 .mss img {
@@ -244,6 +253,7 @@ h4 {
 }
 .mss p {
   padding-top: 20px;
+  margin: 0 75px;
 }
 .mss hr {
   width: 350px;
@@ -255,6 +265,9 @@ h4 {
   padding-top: 50px;
   margin-bottom: 20px;
   display: block;
+}
+.sub i {
+  margin-left: 65px;
 }
 
 .sub h3 {
@@ -268,8 +281,7 @@ h4 {
 /* Section Gradients */
 .section {
   width: 100%;
-  height: 800px;
-  background-color: red;
+  padding-bottom: 100px;
   background-image: linear-gradient(to right, #00A5BC,#00A8BA,#00B2AF,#00B4AD,#01B7AC)
 }
 /* Section Lyric */
@@ -287,7 +299,7 @@ h4 {
 }
 /* /Section Lyric */
 /* Section Table */
-.block {
+.panel1,.panel2,.panel3 {
   float: left;
   width: 24%;
   border-right: 1px solid white;
@@ -320,12 +332,147 @@ h4 {
   color: white;
   margin-top: 20px;
 }
-.block .panel4 {
-
+.panel4 {
+    float: left;
+    width: 24%;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 40px;
 }
 /* /Section Table */
+/* Section Sponsor */
+.sponsor {
+  background-color: white;
+  margin-bottom: 80px;
+}
+.container-60 {
+  width: 60%;
+  height: 200px;
+  margin: auto;
+}
+.panel-left {
+  float: left;
+  width: 15%;
+  margin-top: 80px;
+}
+.panel-left span {
+  color: #33475B;
+  font-size: 45px;
+}
+.panel-left p {
+  margin-top: 20px;
+}
+
+.panel-right {
+  float: left;
+  width: 55%;
+  margin: 0 0 0 30%;
+  margin-top: 80px;
+}
+.panel-right img {
+  width: 150px;
+  height: 20px;
+  margin-right: 40px;
+}
+.panel-right #g2{
+  width: 150px;
+  height: 30px;
+}
+.panel-right #monkey{
+  width: 150px;
+  height: 50px;
+}
+.block-img2 {
+  margin-top: 50px;
+}
+.block-img2 img {
+  height: 35px;
+}
+.block-img2 #wistia {
+  height: 27px;
+}
+/* /Section Sponsor */
+/* Section Person */
+.logo-person {
+  margin-top: 120px;
+}
+.logo-person .panel-left {
+  width: 27%;
+}
+.logo-person span {
+  font-size: 16px;
+}
+
+.panel-right-image {
+  float: right;
+  width: 73%;
+  text-align: right;
+}
+.panel-right-image img {
+  height: 400px;
+  margin-right: 150px;
+}
+/* /Section Person */
+/* Footer */
 footer {
   width: 100%;
-  height: 400px;
+  height: 800px;
   background: #2D3E50;
 }
+
+.index-final {
+  padding-top: 60px;
+}
+.colon {
+  float: left;
+  width: 25%;
+}
+.colon .title{
+  color: white;
+  margin-bottom: 20px;
+}
+.colon span {
+  color: lightgray;
+  display: block;
+  margin-top: 20px;
+}
+.colon .button {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: lightgray;
+  border: none;
+  color: #2D3E50;
+}
+.colon i {
+  color: lightgray;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.footer-bottom span {
+  color: white;
+  margin-right: 20px;
+}
+#hr-color {
+  border-color:lightgray;
+}
+
+.logo-grey {
+  float: left;
+  margin-top: 40px;
+  color: lightgray;
+}
+.note {
+  float: right;
+  margin-top: 40px;
+  color: lightgray;
+}
+.note span:first-child {
+  margin-right: 30px;
+}
+/* /Footer */
