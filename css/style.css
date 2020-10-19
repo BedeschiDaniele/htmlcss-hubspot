@@ -19,14 +19,20 @@ body {
   width: 50%;
 }
 
-.radius {
-  border-radius: 8px;
-}
-
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
+}
+
+.button {
+  background: #FE775A;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 1px solid #FE775A;
+  text-decoration: none;
 }
 
 .check-box {
@@ -35,7 +41,6 @@ body {
 /* Parte Header Top*/
 header {
   width: 100%;
-  background: red;
 }
 
 .header-top {
@@ -68,14 +73,7 @@ header {
   float: right;
   line-height: 100px;
 }
-.button {
-  background: #FE775A;
-  padding: 10px;
-  color: white;
-  border-radius: 4px;
-  margin-right: 10px;
-  border: 1px solid #FE775A;
-}
+
 #search {
   margin-right: 10px;
   color: #43BBCE;
@@ -105,6 +103,7 @@ header {
   display: inline-block;
   padding: 0 10px;
   margin-top: 50px;
+  list-style: none;
 }
 .right-icon-menu #menu a {
   text-decoration: none;
@@ -136,15 +135,15 @@ h1 {
 .text p {
   line-height: 30px;
   font-size: 24px;
+  margin-bottom: 40px;
 }
 .button-middle {
   padding: 20px 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 .text span {
   display: block;
-  font-size: 16px
+  font-size: 16px;
+  margin-top: 40px;
 }
 /* /Parte Header-Middle*/
 .header-bottom {
@@ -193,6 +192,10 @@ main {
   height: 120px;
   width: 130px;
   display: block;
+}
+.crm a {
+  display: block;
+  font-size: 15px;
 }
 .left-colon .button {
   margin-top: 20px;
@@ -245,6 +248,11 @@ h4 {
 }
 .button-center {
   text-align: center;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.button-center a {
+  font-size: 15px;
 }
 .mss img {
   height: 100px;
@@ -399,8 +407,13 @@ h4 {
 .logo-person .panel-left {
   width: 27%;
 }
+.logo-person p{
+  margin-bottom: 60px;
+}
 .logo-person span {
+  display: block;
   font-size: 16px;
+  margin-top: 60px;
 }
 
 .panel-right-image {
@@ -431,17 +444,24 @@ footer {
   color: white;
   margin-bottom: 20px;
 }
-.colon span {
+.colon li {
+  list-style: none;
+}
+.colon a{
   color: lightgray;
   display: block;
   margin-top: 20px;
+  text-decoration: none;
 }
 .colon .button {
+  display: block;
   margin-top: 20px;
   padding: 15px;
   background-color: lightgray;
   border: none;
   color: #2D3E50;
+  font-size: 16px;
+  width: 220px;
 }
 .colon i {
   color: lightgray;
